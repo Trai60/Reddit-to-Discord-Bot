@@ -84,13 +84,16 @@ Each Discord message from R2D includes:
 - The Reddit user's name, avatar, and a link to their profile
 - A direct link to the Reddit post in the title
 - The subreddit name, post date, and time in the footer
+- Reddit videos will download videos and embed a video upto 25mb Discord limits, once above the 25mb limit will fallback to posting a link to the video
+- YouTube video posts adds a thumbnail of the video
+- RedGIFs will download videos and embed a video upto 25mb Discord limits, once above the 25mb limit will fallback to posting a link to the video
 
 ## Current Limitations (aka "Room for Improvement")
 
 R2D is a work in progress, and there are a few things it can't embed perfectly yet:
 
-- YouTube videos (you'll see the title and URL)
-- Reddit videos (shows a URL to the fallback URL)
+- YouTube videos (you'll see the title, video thumbnail and URL)
+- Reddit videos (upload limit of 25mb Discord limit)
 - Image galleries (provides a link to the gallery)
 - External web links (displayed as simple links)
 - RedGIFs (provides a direct URL link)
