@@ -13,7 +13,7 @@ After stumbling upon [nynu_'s bot](https://discord.com/applicationdirectory/1049
 - Posts Reddit content to specified Discord channels
 - Supports multiple subreddit subscriptions
 - Customizable message formatting
-- Available in two flavors: with slash commands or hard-coded configuration
+- Image Carousel for image galleries and other types of multiple image uploads
 
 ## Prerequisites
 
@@ -30,13 +30,6 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
 ## Configuration
 
 1. Edit the `.env_reddit` file with your Reddit and Discord credentials
-
-## Configuration if using the hard coded version of the bot
-
-1. Edit the `reddit_discord_bot.py`
-2. Choose your subreddits and Discord channels - mix and match as you like!
-3. Customize which buttons appear at the bottom of Discord messages
-
 
 ## Setup
 
@@ -67,8 +60,9 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
 ### Discord Server Setup
 
 1. Invite your shiny new bot to your server using the bot invite URL you copied earlier
-2. Make sure it has the right permissions, especially Application Commands if you wish to use slash commands (I usually create an "Apps" role for all my bots)
+2. Make sure it has the right permissions (I usually create an "Apps" role for all my bots)
 3. Ensure the bot has access to the channels where you want it to post
+4. Choose which Roles or Discord Users have access to the slash commands of the bot
 
 ## Slash Command Usage
 
@@ -87,6 +81,7 @@ Each Discord message from R2D includes:
 - Reddit videos will download videos and embed a video upto 25mb Discord limits, once above the 25mb limit will fallback to posting a link to the video
 - YouTube video posts adds a thumbnail of the video
 - RedGIFs will download videos and embed a video upto 25mb Discord limits, once above the 25mb limit will fallback to posting a link to the video
+- Various types of image carousel for image uploads to Reddit
 
 ## Current Limitations (aka "Room for Improvement")
 
@@ -94,9 +89,11 @@ R2D is a work in progress, and there are a few things it can't embed perfectly y
 
 - YouTube videos (you'll see the title, video thumbnail and URL)
 - Reddit videos (upload limit of 25mb Discord limit)
-- Image galleries (provides a link to the gallery)
 - External web links (displayed as simple links)
-- RedGIFs (provides a direct URL link)
+- Remove the ( Parentheses from the end of caption text
+- Reddit Posts in Forums and Threads (exsisting and creating)
+- Caption text not shown in the Discord message for Reddit Image Galleries
+- Reddit crossposts
 
 I'm hoping to tackle these in the future. If you're feeling adventurous and want to help out, I'd love the collaboration!
 
@@ -116,8 +113,12 @@ Curious about how R2D looks in action? Here are some examples:
 
 ![Command Interface](Screenshots/Slash%20Commands/Commands-01.png)
 
-Check out the `Screenshots` folder for more examples!
+Check out the `Screenshots` folder for more examples! added new screenshots for updated version 1.2
 
 ## A Final Note
 
 This is my first Discord bot, so it might not be perfect. But hey, we all start somewhere, right? I hope you find R2D useful, and remember - feedback is always appreciated!
+
+## Want to the bot in action
+
+You can checkout my Discord server [here](https://discord.gg/qTTzNWM9Wv)
