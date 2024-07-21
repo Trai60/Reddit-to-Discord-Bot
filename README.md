@@ -105,9 +105,11 @@ Got ideas? Found a bug? Want to make R2D even better? Contributions are more tha
 
 Curious about how R2D looks in action? Here are some examples:
 
-*A typical subreddit post as displayed by R2D*
+*A some typical subreddit posts as displayed by R2D*
 
-![Subreddit Post](Screenshots/Message%20Screenshots/Post%20Screen-01.png)
+![Subreddit Post 1](Screenshots/Screens/1.png)
+![Subreddit Post 2](Screenshots/Screens/2.png)
+![Subreddit Post 3](Screenshots/Screens/3.png)
 
 *The slash command interface for R2D*
 
