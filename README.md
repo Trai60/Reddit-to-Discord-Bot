@@ -121,6 +121,6 @@ Check out the `Screenshots` folder for more examples! added new screenshots for 
 
 This is my first Discord bot, so it might not be perfect. But hey, we all start somewhere, right? I hope you find R2D useful, and remember - feedback is always appreciated!
 
-## Want to the bot in action
+## Want to see the bot in action
 
 You can checkout my Discord server [here](https://discord.gg/qTTzNWM9Wv)
