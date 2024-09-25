@@ -30,7 +30,7 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
 
 ## Configuration
 
-1. Edit the `.env_reddit` file with your Reddit and Discord credentials
+1. Edit the `.env_reddit` file with your Reddit and Discord credentials and Role and Log Channel ID's
 
 ## Setup
 
