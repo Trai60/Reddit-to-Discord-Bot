@@ -33,7 +33,7 @@ source venv/bin/activate</code></pre>
 <p id="bkmrk-11%29-create-the-main">11) Create the main bot file:</p>
 <pre id="bkmrk-nano-reddit_discord_"><code class="language-">nano reddit_discord_bot.py</code></pre>
 <p id="bkmrk-12%29-copy-and-paste-t">12) Copy and paste the py code into reddit_discord_bot_sample.py:</p>
-<p id="bkmrk-13%29-check-to-see-th">13) Check to see the bot is working after you invite the bot and set the correct permission for it in Discord Server.</p>
+<p id="bkmrk-13%29-check-to-see-th">13) Check to see the bot is working after you invite the bot and set the correct permission for it and so on in your Discord Server.</p>
 <pre id="bkmrk-python-reddit_discor"><code class="language-">python reddit_discord_bot.py</code></pre>
 <p id="bkmrk-14%29-create-a-systemd">14) Create a systemd service file: (If running the Bot with more than one instance change the service name)</p>
 <pre id="bkmrk-sudo-nano-%2Fetc%2Fsyste"><code class="language-">sudo nano /etc/systemd/system/reddit_discord_bot.service</code></pre>
