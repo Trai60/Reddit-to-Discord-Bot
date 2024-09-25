@@ -11,6 +11,7 @@ After stumbling upon [nynu_'s bot](https://discord.com/applicationdirectory/1049
 
 - Checks for new Reddit posts every 2 minutes (configurable)
 - Posts Reddit content to specified Discord channels and forum channels
+- Reddit Flairs converted to Discord tags
 - Will use a fallback image (this can be changed in the code to use any fallback image of your choice) in forum threads if no image or thumbnail can be found or made
 - Supports multiple subreddit subscriptions
 - Supports crossposts
@@ -117,12 +118,12 @@ Curious about how R2D looks in action? Here are some examples:
 
 ![Command Interface](Screenshots/Slash%20Commands/Commands-01.png)
 
-Check out the `Screenshots` folder for more examples! added new screenshots for updated version 1.2
+Check out the `Screenshots` folder for more examples!
 
 ## A Final Note
 
 This is my first Discord bot, so it might not be perfect. But hey, we all start somewhere, right? I hope you find R2D useful, and remember - feedback is always appreciated!
 
-## Want to see the bot in action
+## Want to see the bot in action or need any help with the bot
 
 You can checkout my Discord server [here](https://discord.gg/qTTzNWM9Wv)
