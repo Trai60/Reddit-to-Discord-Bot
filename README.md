@@ -62,10 +62,12 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
 
 ### Discord Server Setup
 
-1. Invite your shiny new bot to your server using the bot invite URL you copied earlier
-2. Make sure it has the right permissions (I usually create an "Apps" role for all my bots)
-3. Ensure the bot has access to the channels where you want it to post
-4. Choose which Roles or Discord Users have access to the slash commands of the bot
+1. Create a Debug Role and copy the ID number you will need this later (This role does not need any special permissions as it is only used if you wish another user who is not the server owner and you want them to have access to the debug commands)
+2. Create a Log channel in your Discord server and copy the ID as you again will need this later (This channel is where the daily log file and warning and errors messages will be sent to by the logging system)
+3. Invite your shiny new bot to your server using the bot invite URL you copied earlier
+4. Make sure it has the right permissions (I usually create an "Apps" role for all my bots)
+5. Ensure the bot has access to the channels where you want it to post
+6. Choose which Roles or Discord Users have access to the slash commands of the bot
 
 ## Slash Command Usage
 
