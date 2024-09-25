@@ -22,7 +22,7 @@
 
 `nano .env_reddit`
 
-Add these to the bottom of of the file rembering to the Debug Role & Channel ID's
+Add these to the bottom of of the file rembering to change the Debug Role & Channel ID's
 
 - DEBUG_ROLE_ID=YOUR DEBUG ROLE ID FROM YOUR DISCORD SERVER
 - LOG_CHANNEL_ID=YOUR LOG CHANNEL ID FROM YOUR DISCORD SERVER
