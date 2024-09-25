@@ -7,6 +7,7 @@ Full list of changes
 - Added: New bot commands for debugging the bot with the option to choose a role who has access to these debug commands
 - Added: Skip option for media that is currently not being used by the bot for Discord messages
 - Added: The bot now works with Forum channels
+- Added: Reddit Flairs will be converted to Discord Forum Tags
 - Added: New helper function, for bot commands
 - Added: Daily log file set to Discord Log channel
 - Added: Some general clean up of the code
