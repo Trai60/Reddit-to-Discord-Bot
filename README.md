@@ -10,8 +10,9 @@ After stumbling upon [nynu_'s bot](https://discord.com/applicationdirectory/1049
 ## Features
 
 - Checks for new Reddit posts every 2 minutes (configurable)
-- Posts Reddit content to specified Discord channels
+- Posts Reddit content to specified Discord channels and forum channels
 - Supports multiple subreddit subscriptions
+- Supports crossposts
 - Customizable message formatting
 - Image Carousel for image galleries and other types of multiple image uploads
 
@@ -71,6 +72,7 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
 - list_subscriptions (will display your current subreddit subscriptions and in which channels)
 - get_button_visibility (will show which buttons are currently being shown)
 - set_button_visibility (allows you to turn off each button or turn off all buttons)
+- Other commands for debugging, forum subscriptions and more.
 
 ## What You'll See
 
@@ -90,10 +92,8 @@ R2D is a work in progress, and there are a few things it can't embed perfectly y
 - YouTube videos (you'll see the title, video thumbnail and URL)
 - Reddit videos (upload limit of 25mb Discord limit)
 - External web links (displayed as simple links)
-- Remove the ( Parentheses from the end of caption text
-- Reddit Posts in Forums and Threads (exsisting and creating)
 - Caption text not shown in the Discord message for Reddit Image Galleries
-- Reddit crossposts
+- Option to choose which type of Reddit URL is used (New, Old & Current URL version)
 
 I'm hoping to tackle these in the future. If you're feeling adventurous and want to help out, I'd love the collaboration!
 
