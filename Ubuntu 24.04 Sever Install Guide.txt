@@ -1,0 +1,104 @@
+Step-by-step guide:
+
+#Remember to replace yourusername where you see that with the username you choose
+
+1) Update and upgrade your system:
+
+sudo apt update && sudo apt upgrade -y
+
+2) Install required software:
+
+sudo apt install python3 python3-venv python3-pip sqlite3 -y
+sudo apt install libffi-dev libssl-dev libjpeg-dev zlib1g-dev -y
+
+3) Server time setup (this will help for log files later on)
+
+View the current time zone run:
+
+timedatectl
+
+View a list of availble time zones run:
+
+timedatectl list-timezones
+
+Once you know which timezone for your location run:
+
+sudo timedatectl set-timezone Europe/London
+
+4) Reboot the server
+
+reboot
+
+5) Create a new user and switch to it:
+
+sudo adduser yourusername
+PASSOWRD OF YOUR CHOICE
+sudo usermod -aG sudo yourusername
+su - yourusername
+
+6) Create a directory for your bot and navigate to it:
+
+mkdir reddit_discord_bot
+cd reddit_discord_bot
+
+7) Set up a Python virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate
+
+8) Install required Python packages:
+
+pip install discord.py[voice] asyncpraw aiohttp Pillow python-dotenv backoff
+
+9) Create .env_reddit file
+
+nano .env_reddit
+
+10) Copy and paste the code from .env_reddit_sample.txt file
+
+11) Create the main bot file:
+
+nano reddit_discord_bot.py
+
+12) Copy and paste the py code into reddit_discord_bot_sample.py:
+
+13) Check to see the bot is working after you invite the bot and set the correct permission for it in Discord Server.
+
+python reddit_discord_bot.py
+
+14) Create a systemd service file: (If running the Bot with more than one instance change the service name)
+
+sudo nano /etc/systemd/system/reddit_discord_bot.service
+
+15) Copy and paste the following content into the service file.
+
+#Remember to replace yourusername with your chosen Username
+
+[Unit]
+Description=Reddit Discord Bot
+After=network.target
+
+[Service]
+ExecStart=/home/yourusername/reddit_discord_bot/venv/bin/python /home/yourusername/reddit_discord_bot/reddit_discord_bot.py
+WorkingDirectory=/home/yourusername/reddit_discord_bot
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=yourusername
+
+[Install]
+WantedBy=multi-user.target
+
+16) Enable and start the service:
+
+sudo systemctl enable reddit_discord_bot.service
+
+sudo systemctl start reddit_discord_bot.service
+
+17) Check the status of the service:
+
+sudo systemctl status reddit_discord_bot.service
+
+18) Stopping the service should need make any changes.
+
+sudo systemctl stop reddit_discord_bot.service
