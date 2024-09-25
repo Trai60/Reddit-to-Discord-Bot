@@ -62,7 +62,7 @@ nano reddit_discord_bot.py
 
 12) Copy and paste the py code into reddit_discord_bot_sample.py:
 
-13) Check to see the bot is working after you invite the bot and set the correct permission for it in Discord Server.
+13) Check to see the bot is working after you invite the bot and set the correct permission for it and so on in your Discord Server.
 
 python reddit_discord_bot.py
 
