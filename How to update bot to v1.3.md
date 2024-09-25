@@ -18,20 +18,27 @@
 
 5. Relace the exsisting code with the updated version.
 
-6. Update the .env_reddit file with the new Debug Role ID & Log Channel ID's
+6. Add a new Log Channel and a Debug Role in your Discord Server and copy the ID's
+
+- The Debug Role does not need any special Discord permissions as you will only need to add this role to anyone you wish to have access to the debug commands that is not a a Discord server owner.
+
+- The Log channel is where the daily log file and any warnings or errors that the logging system will be sent to.
+
+
+7. Update the .env_reddit file with the new Debug Role ID & Log Channel ID's
 
 `nano .env_reddit`
 
-Add these to the bottom of of the file rembering to change the Debug Role & Channel ID's
+Add these to the bottom of of the file rembering to the Debug Role & Channel ID's
 
 - DEBUG_ROLE_ID=YOUR DEBUG ROLE ID FROM YOUR DISCORD SERVER
 - LOG_CHANNEL_ID=YOUR LOG CHANNEL ID FROM YOUR DISCORD SERVER
 
-4. Restart the bot service.
+8. Restart the bot service.
 
 `sudo systemctl start reddit_discord_bot.service`
 
-5. Check status of the bot if required
+9. Check status of the bot if required
 
 `sudo systemctl status reddit_discord_bot.service`
 
