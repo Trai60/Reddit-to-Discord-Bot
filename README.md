@@ -11,6 +11,7 @@ After stumbling upon [nynu_'s bot](https://discord.com/applicationdirectory/1049
 
 - Checks for new Reddit posts every 2 minutes (configurable)
 - Posts Reddit content to specified Discord channels and forum channels
+- Will use a fallback image (this can be changed in the code to use any fallback image of your choice) in forum threads if no image or thumbnail can be found or made
 - Supports multiple subreddit subscriptions
 - Supports crossposts
 - Customizable message formatting
@@ -94,6 +95,7 @@ R2D is a work in progress, and there are a few things it can't embed perfectly y
 - External web links (displayed as simple links)
 - Caption text not shown in the Discord message for Reddit Image Galleries
 - Option to choose which type of Reddit URL is used (New, Old & Current URL version)
+- Work on forum individual threads message format
 
 I'm hoping to tackle these in the future. If you're feeling adventurous and want to help out, I'd love the collaboration!
 
