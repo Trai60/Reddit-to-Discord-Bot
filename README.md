@@ -59,6 +59,10 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
      - Attach Files
      - Manage Channels
      - Read Message History
+     - Manage Threads
+     - Create Public Threads
+     - Create Private Threads
+     - Send Messages in Threads
 3. Grab that Bot Token - it's crucial!
 
 ### Discord Server Setup
