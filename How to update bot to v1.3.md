@@ -34,11 +34,15 @@ Add these to the bottom of of the file rembering to the Debug Role & Channel ID'
 - DEBUG_ROLE_ID=YOUR DEBUG ROLE ID FROM YOUR DISCORD SERVER
 - LOG_CHANNEL_ID=YOUR LOG CHANNEL ID FROM YOUR DISCORD SERVER
 
-8. Restart the bot service.
+8. Check that you have the correct permission set in the Discord Dev Website for the bot
+
+9. Re-invite the bot to the your Discord server
+
+10. Restart the bot service.
 
 `sudo systemctl start reddit_discord_bot.service`
 
-9. Check status of the bot if required
+11. Check status of the bot if required
 
 `sudo systemctl status reddit_discord_bot.service`
 
