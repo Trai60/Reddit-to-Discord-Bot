@@ -57,6 +57,7 @@ For detailed installation instructions, please refer to the `Ubuntu 24.04 Server
      - Send Messages
      - Embed Links
      - Attach Files
+     - Manage Channels
      - Read Message History
 3. Grab that Bot Token - it's crucial!
 
