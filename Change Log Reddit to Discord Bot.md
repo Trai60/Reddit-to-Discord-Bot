@@ -3,7 +3,7 @@ Reddit to Discord Bot v1.3.1
 Full list of changes
 
 - Added: Option to use a Discord Thread ID if the Thread name is not listed when trying to unsubscribe to a subreddit
-- Bug Fix: Non-valid subbreddits will now display a message in Discord channel when attempting to subscribe to a subreddit that may not exists or is not correctly spelled 
+- Bug Fix: Non-valid subreddits will now display a message in Discord channel when attempting to subscribe to a subreddit that may not exists or is not correctly spelt 
 
 Reddit to Discord Bot v1.3
 
