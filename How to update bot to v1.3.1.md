@@ -1,6 +1,6 @@
-# R2D: Reddit to Discord Bot v1.3 Update
+# R2D: Reddit to Discord Bot v1.3.1 Update
 
-## How to update the bot from v1.0, v1.1, v1.2 to v1.3
+## How to update the bot from v1.0, v1.1, v1.2 to v1.3.1
 
 1. First stop the bot
 
